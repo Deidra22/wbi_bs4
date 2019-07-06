@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    background-color: #ffffff;
+}
+/* BANNER START */
+.banner{
+    background-color: #8b0000;
+    color: #ffffff;
+    height: 65px;
+    font-size: 20px;
+}
+.icons{
+    color: #ffffff;
+}
+/* BANNER END */
+/* NAV START */
+.nav-info{
+    padding: 35px 0;
+}
+.nav-info,.nav-link.active{
+    border-bottom: 1.5px solid #8b0000;
+}
+.wbi_logo{
+    height: 100px;
+    width: 200px;
+}
+.nav-list, .nav-info, .title, .carousel{
+    margin-top: 20px;
+}
+.nav-link{
+    list-style-type: none;
+    font-weight: bold;
+    color: black;
+}
+/* NAV END */
+/* CAROUSEL START */
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+}
+/* CAROUSEL END */
+/* START THUMBNAILS */
+hr, .sm_underline, .lg_underline{
+    background-color: #8b0000;
+    height: 3px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.thumbnail_title{
+    margin: 15px 0;
+
+}
+/* END THUMBNAILS */
+@media only screen and (max-width: 599px){
+    .hide_mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 599px){
+    .mobile_rep{
+        display:block;
+    }
+}
