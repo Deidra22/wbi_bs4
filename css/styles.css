@@ -23,6 +23,7 @@ body{
 .wbi_logo{
     height: 100px;
     width: 200px;
+    padding: 5px;
 }
 .nav-list, .nav-info, .title, .carousel{
     margin-top: 20px;
@@ -53,13 +54,68 @@ hr, .sm_underline, .lg_underline{
 
 }
 /* END THUMBNAILS */
+/* START PHONE MEDIA Qs*/
 @media only screen and (max-width: 599px){
     .hide_mobile{
         display: none;
     }
-}
-@media only screen and (max-width: 599px){
-    .mobile_rep{
-        display:block;
+    .mobile_resp{
+        /* display: block; */
     }
+    .nav-info-sm{
+        border-bottom: 1.5px solid #8b0000;
+    }
+}
+/* END PHONE MEDIA Qs */
+/* START LARGER SCREEN Qs */
+@media only screen and (min-width: 600px) and (max-width: 1199px){
+    .mobile_resp{
+        display: none;
+    }
+    .hide_mobile{
+        /* display: block; */
+    }
+    .nav-info-sm{
+        border: none;
+    }
+    .wbi_logo{
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .lg_icons{
+        color: #8b0000;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .icon_text{
+        margin-bottom: 0;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .column_padding{
+        padding: 0;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .mobile_resp{
+        display: none;
+    }
+    /* .hide_mobile{
+        display: block;
+    } */
+    .nav-info-sm{
+        border: none;
+    }
+    .lg_icons{
+        color: #8b0000;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .icon_text{
+        margin-bottom: 0;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
 }
